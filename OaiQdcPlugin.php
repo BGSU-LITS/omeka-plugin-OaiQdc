@@ -20,11 +20,11 @@ class OaiQdcPlugin extends Omeka_Plugin_AbstractPlugin
     {
         $formats['oai_qdc'] = array(
             'class' =>
-                OaiPmhRepository_Metadata_OaiQdc::class,
+                OaiPmhRepository_Metadata_OaiQdcPlugin::class,
             'namespace' =>
-                OaiPmhRepository_Metadata_OaiQdc::METADATA_NAMESPACE,
+                OaiPmhRepository_Metadata_OaiQdcPlugin::METADATA_NAMESPACE,
             'schema' =>
-                OaiPmhRepository_Metadata_OaiQdc::METADATA_NAMESPACE
+                OaiPmhRepository_Metadata_OaiQdcPlugin::METADATA_NAMESPACE
         );
 
         return $formats;

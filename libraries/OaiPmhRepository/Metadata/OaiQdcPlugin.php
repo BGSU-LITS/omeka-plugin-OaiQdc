@@ -12,7 +12,7 @@
   *
   * @package OaiQdc
   */
-class OaiPmhRepository_Metadata_OaiQdc implements
+class OaiPmhRepository_Metadata_OaiQdcPlugin implements
     OaiPmhRepository_Metadata_FormatInterface
 {
     /** OAI-PMH metadata prefix */
